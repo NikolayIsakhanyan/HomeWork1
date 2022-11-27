@@ -142,17 +142,17 @@ using System.Text;
 //Console.WriteLine("p=" + p);
 //Console.ReadKey();
 
-int p = 1;
-int i = 100;
-while (i <= 1000) 
-{
-    if (i % 3 == 1 && i % 4 == 2)
-    {
-        p *= i;
-    }
-}
-Console.WriteLine("p=" + p);
-Console.ReadKey();
+//int p = 1;
+//int i = 100;
+//while (i <= 1000) 
+//{
+//    if (i % 3 == 1 && i % 4 == 2)
+//    {
+//        p *= i;
+//    }
+//}
+//Console.WriteLine("p=" + p);
+//Console.ReadKey();
 
 
 
