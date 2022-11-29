@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 //int a,b,c ;
@@ -144,7 +145,7 @@ using System.Text;
 
 //int p = 1;
 //int i = 100;
-//while (i <= 1000) 
+//while (i <= 1000)
 //{
 //    if (i % 3 == 1 && i % 4 == 2)
 //    {
@@ -159,9 +160,9 @@ using System.Text;
 
 
 
-//for(int i = 9999; i >= 1000; i--)//163
+//for (int i = 9999; i >= 1000; i--)//163
 //{
-//    if ((Math.Sqrt(i * 18) - Math.Truncate(Math.Sqrt(i * 18))) == 0) { Console.WriteLine(i);break; }
+//    if ((Math.Sqrt(i * 26) - Math.Truncate(Math.Sqrt(i * 26))) == 0) { Console.WriteLine(i); break; }
 
 //}
 
@@ -169,7 +170,17 @@ using System.Text;
 
 
 
-
-
-
+int[] arrey = new int[8];
+for (int i = 0; i < arrey.Length; i++)
+{
+    arrey[i] = Convert.ToInt32(Console.ReadLine());
+    
+}
+for (int i = 0; i < arrey.Length; i++)
+{
+    if (arrey[i] > 0)
+    {
+        Console.WriteLine(arrey[i]);
+    }
+}
 
