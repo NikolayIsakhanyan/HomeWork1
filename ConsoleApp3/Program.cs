@@ -170,17 +170,16 @@ using System.Text;
 
 
 
-int[] arrey = new int[8];
-for (int i = 0; i < arrey.Length; i++)
-{
-    arrey[i] = Convert.ToInt32(Console.ReadLine());
+//int[] arrey = new int[8];//221
+//for (int i = 0; i < arrey.Length; i++)
+//{
+//    arrey[i] = Convert.ToInt32(Console.ReadLine());
     
-}
-for (int i = 0; i < arrey.Length; i++)
-{
-    if (arrey[i] > 0)
-    {
-        Console.WriteLine(arrey[i]);
-    }
-}
-
+//}
+//for (int i = 0; i < arrey.Length; i++)
+//{
+//    if (arrey[i] > 0)
+//    {
+//        Console.Write(arrey[i]);
+//    }
+//}
